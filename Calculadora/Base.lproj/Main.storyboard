@@ -37,6 +37,9 @@
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ekv-5g-BXq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHp-cd-vPc">
                                 <rect key="frame" x="116" y="144" width="86" height="86"/>
@@ -44,6 +47,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BZG-vT-dbI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhR-SJ-ybG">
                                 <rect key="frame" x="212" y="144" width="86" height="86"/>
@@ -51,6 +57,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eWB-OP-XNm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgC-5o-q8H">
                                 <rect key="frame" x="308" y="144" width="86" height="86"/>
@@ -59,11 +68,17 @@
                                     <constraint firstAttribute="width" secondItem="pgC-5o-q8H" secondAttribute="height" multiplier="1:1" priority="750" id="nqs-ee-BmU"/>
                                 </constraints>
                                 <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="operacionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qK2-tn-d5i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9s-X9-piY">
                                 <rect key="frame" x="308" y="336" width="86" height="86"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="operacionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAf-zp-qky"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66Y-tQ-fIy">
                                 <rect key="frame" x="20" y="240" width="86" height="86"/>
@@ -71,6 +86,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yaM-oG-SFu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddc-es-0TN">
                                 <rect key="frame" x="116" y="240" width="86" height="86"/>
@@ -78,6 +96,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vy8-Vp-1aG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUF-76-PW5">
                                 <rect key="frame" x="212" y="240" width="86" height="86"/>
@@ -85,11 +106,17 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vpf-XP-LDi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oik-Gz-7Gz">
                                 <rect key="frame" x="308" y="240" width="86" height="86"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="operacionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KTY-S3-l0u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsv-EC-c7b">
                                 <rect key="frame" x="20" y="336" width="86" height="86"/>
@@ -97,6 +124,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIW-Dt-s02"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAE-Ht-Dfz">
                                 <rect key="frame" x="116" y="336" width="86" height="86"/>
@@ -104,6 +134,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UyD-Dc-ohs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfp-6O-e78">
                                 <rect key="frame" x="212" y="336" width="86" height="86"/>
@@ -111,6 +144,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I9D-6l-0NH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTb-Op-IBI">
                                 <rect key="frame" x="20" y="432" width="86" height="86"/>
@@ -125,6 +161,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="botonNumericoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ZT-ck-28W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZo-Kc-mG5">
                                 <rect key="frame" x="212" y="432" width="86" height="86"/>
@@ -132,11 +171,17 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="igualButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pj2-Im-bug"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XS1-Vi-mZv">
                                 <rect key="frame" x="308" y="432" width="86" height="86"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="operacionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6B-uc-sXP"/>
+                                </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zr2-K4-HrN">
                                 <rect key="frame" x="10" y="144" width="0.0" height="374"/>
@@ -222,6 +267,10 @@
                             <constraint firstItem="tAE-Ht-Dfz" firstAttribute="centerY" secondItem="Tsv-EC-c7b" secondAttribute="centerY" id="zvt-h5-0Ej"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="igualButton" destination="rZo-Kc-mG5" id="ui2-hr-Jxq"/>
+                        <outlet property="resultadoLabel" destination="09h-oN-7E1" id="xbh-1t-sek"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
