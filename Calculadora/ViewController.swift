@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         resultadoLabel.text = "0"
+        igualButton.setImage(UIImage(systemName: "checkmark"), for: .normal)
         
     }
 
